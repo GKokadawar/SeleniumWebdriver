@@ -18,9 +18,10 @@ public class CSSSelectorsDemo {
 		// tag class tag.classname
 		driver.findElement(By.cssSelector("button.button-1 ")).click();
 		// tag attributes tag[attribute='value']
-		driver.findElement(By.cssSelector("input.search-box-text[placeholder=\"Search store\"]")).sendKeys("ratri");
+		driver.findElement(By.cssSelector("input.search-box-text[placeholder=\"Search store\"]")).sendKeys("Nokia");
 
 		// tag class attribute
+		driver.findElement(By.cssSelector("input.search-box-text[placeholder=\"Search store\"]")).sendKeys("Iphones");
 	}
 
 }
